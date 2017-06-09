@@ -1,0 +1,8 @@
+# add all tools to init rkt project 
+
+export DOCKER_TO_ACI=/opt/docker2aci/bin
+export GOACI=/opt/goaci/bin
+export APPC=/opt/appcSpec/bin
+export ACBUILD=/opt/acbuild/bin
+
+export PATH=$PATH:$APPC:$GOACI:$DOCKER_TO_ACI:$ACBUILD
